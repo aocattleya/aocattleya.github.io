@@ -87,3 +87,8 @@ header {
 #new dd {
   padding-left: 8em;
 }
+
+.copyright {
+    color: gainsboro;
+    font-size: 15px;
+}
