@@ -1,14 +1,14 @@
-@charset "utf-8";
-
 body {
   margin: 0px;
   padding: 0px;
   color: #000080;
-  font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+  font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ",
+    "ＭＳ Ｐゴシック", sans-serif;
   font-size: 14px;
   line-height: 2;
   background: #fff url(../images/background.jpg) no-repeat center center fixed;
-  background: #fff url(../images/background.jpg) no-repeat center center/cover fixed;
+  background: #fff url(../images/background.jpg) no-repeat center center/cover
+    fixed;
   -webkit-text-size-adjust: 100%;
 }
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {
@@ -25,14 +25,6 @@ img {
 a:hover img {
   opacity: 0.6;
 }
-table {
-  border-collapse: collapse;
-  font-size: 100%;
-  border-spacing: 0;
-}
-iframe {
-  width: 100%;
-}
 
 h2 {
   clear: both;
@@ -43,9 +35,13 @@ h2 {
   border-radius: 4px;
 }
 
+.center{
+  text-align: center;
+}
+
 #container {
   max-width: 900px;
-  margin: 3% auto 20px ;
+  margin: 3% auto 20px;
   background: rgba(255, 255, 255, 0.9);
   border-radius: 20px;
   padding: 2%;
@@ -73,11 +69,6 @@ header {
   max-width: 1500px;
 }
 
-#new dl {
-  padding-left: 20px;
-  margin-bottom: 15px;
-}
-
 #new dt {
   font-weight: bold;
   float: left;
@@ -89,6 +80,6 @@ header {
 }
 
 .copyright {
-    color: gainsboro;
-    font-size: 15px;
+  color: gainsboro;
+  font-size: 15px;
 }
